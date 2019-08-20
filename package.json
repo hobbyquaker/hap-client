@@ -1,6 +1,6 @@
 {
-  "name": "hap-client",
-  "version": "1.0.1",
+  "name": "@hobbyquaker/hap-client",
+  "version": "1.1.0",
   "description": "Control HomeKit-enabled devices with Node",
   "main": "dist/HapClient.js",
   "repository": {
@@ -30,9 +30,9 @@
     "babel-plugin-transform-function-bind": "^6.8.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-env": "^1.4.0",
-    "debug": "^2.6.4",
-    "mocha": "^3.3.0",
-    "simple-plist": "^0.2.1"
+    "debug": "^4.1.1",
+    "mocha": "^6.2.0",
+    "simple-plist": "^1.0.0"
   },
   "babel": {
     "sourceMaps": "inline",
@@ -63,12 +63,12 @@
     "buffer-reader": "^0.1.0",
     "enum": "^2.4.0",
     "fast-srp-hap": "^1.0.1",
-    "keytar": "^4.0.2",
+    "keytar": "^5.0.0-beta.0",
     "message-socket": "^1.0.3",
     "node-hkdf-sync": "^1.0.0",
-    "rxjs": "^5.3.0",
-    "sodium": "^2.0.1",
-    "source-map-support": "^0.4.15",
+    "rxjs": "^6.5.2",
+    "sodium": "^3.0.2",
+    "source-map-support": "^0.5.13",
     "uuidv5": "^1.0.0"
   }
 }
